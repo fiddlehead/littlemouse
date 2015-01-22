@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Little Mouse Storytime Game">
+		<title>Little Mouse Flannel</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1>Animated Little Mouse Flannelboard</h1>
+		<div class="rhyme">
+				<p>An animated version of the popular storytime game, Little Mouse, made with JavaScript. Traditional flannelboard version <a href="http://rovingfiddlehead.com/kidlit/flannel-friday-little-mouse-in-the-house-flannelboard-game/">here</a>.</p>
+		<p>Click on each house, it lifts and reveals whether or not the mouse is hiding under that particular house. Repeat as often as the children like!</p>
+		<blockquote>Little Mouse, Little Mouse<br/>
+		Are you hiding in the ____ house?</blockquote>
+</div>
+		<div class="center">
+			<img class="house" id="red" src="/images/redhouse.svg" border="0px"
+			width="321px" height="322px" onMouseOver="MouseRollover(this)"
+			onMouseOut="MouseOut(this)" />
+
+			<img class = "house" id="blue" src="/images/bluehouse.svg" border="0px"
+			width="321px" height="322px" onMouseOver="MouseRollover(this)"
+			onMouseOut="changeReset();" />
+
+			<img class="house" id="green"src="/images/greenhouse.svg" border="0px"
+			width="321px" height="322px" onMouseOver="MouseRollover(this)"
+			onMouseOut="resetState();" />
+
+			<img class="house" id="yellow" src="/images/yellowhouse.svg" border="0px"
+			width="321px" height="322px" onMouseOver="MouseRollover(this)"
+			onMouseOut="MouseOut(this)" />
+
+			<img class="house" id="orange" src="/images/orangehouse.svg" border="0px"
+			width="321px" height="322px" onMouseOver="MouseRollover(this)"
+			onMouseOut="MouseOut(this)" />
+
+			<img class="house" id="purple" src="/images/purplehouse.svg" border="0px"
+			width="321px" height="322px" onMouseOver="MouseRollover(this)"
+			onMouseOut="MouseOut(this)" />
+		</div>
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="js/littlemouse.js"></script>
+	</body>
+</html>
