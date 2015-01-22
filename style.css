@@ -29,15 +29,15 @@ h1 {
 }
 
 .house {
-  margin: 10px;
-  margin-bottom: 20%;
+	height: 322px;
+  	margin: 10px;
+  	margin-bottom: 20%;
+  	width: 321px;
 }
 
 .insideHouse {
-	background-image: url(/images/smallmouse.png);
+	background-image: url(/images/mouse.svg);
 	border: 0px;
-	height: 322px;
-	width: 321px;
 }
 blockquote {
 	background: #e5e5e5;
