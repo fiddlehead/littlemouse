@@ -45,7 +45,7 @@ $( document ).ready(function() {
 	$("#red").click(function() {
 		$(this).attr("src",inside[0]);
 		if (inside[0] == mouse) {
-			alert("YOU WIN! Play again.")
+			alert("Congratulations, you found the mouse!")
 			resetGame()
 		}
 	});
@@ -53,7 +53,7 @@ $( document ).ready(function() {
 	$("#blue").click(function() {
 		$(this).attr("src",inside[1]);
 		if (inside[1] == mouse) {
-			alert("YOU WIN! Play again.")
+			alert("Congratulations, you found the mouse!")
 			resetGame()
 		}
 	});
@@ -61,7 +61,7 @@ $( document ).ready(function() {
 	$("#orange").click(function() {
 		$(this).attr("src",inside[2]);
 		if (inside[2] == mouse) {
-			alert("YOU WIN! Play again.")
+			alert("Congratulations, you found the mouse!")
 			resetGame()
 		}
 	});
@@ -69,7 +69,7 @@ $( document ).ready(function() {
 	$("#green").click(function() {
 		$(this).attr("src",inside[3]);
 		if (inside[3] == mouse) {
-			alert("YOU WIN! Play again.")
+			alert("Congratulations, you found the mouse!")
 			resetGame()
 		}
 	});
@@ -77,7 +77,7 @@ $( document ).ready(function() {
 	$("#yellow").click(function() {
 		$(this).attr("src",inside[4]);
 		if (inside[4] == mouse) {
-			alert("YOU WIN! Play again.")
+			alert("Congratulations, you found the mouse!")
 			resetGame()
 		}
 	});
@@ -85,7 +85,7 @@ $( document ).ready(function() {
 	$("#purple").click(function() {
 		$(this).attr("src",inside[5]);
 		if (inside[5] == mouse) {
-			alert("YOU WIN! Play again.")
+			alert("Congratulations, you found the mouse!")
 			resetGame()
 		}
 	});
