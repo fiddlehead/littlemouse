@@ -1,5 +1,5 @@
 const empty = '/images/emptyhouse.svg'
-const mouse = '/images/smallmouse.png'
+const mouse = '/images/mouse.svg'
 
 inside = [
 	empty,
