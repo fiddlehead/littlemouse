@@ -1,5 +1,5 @@
-const empty = '/images/emptyhouse.svg'
-const mouse = '/images/mouse.svg'
+const empty = 'images/emptyhouse.svg'
+const mouse = 'images/mouse.svg'
 
 inside = [
 	empty,
@@ -62,7 +62,7 @@ $( document ).ready(function() {
 });
 
 function congrats() {
-	alert("Congratulations\nYou found the mouse!\nClick OK to hide the mouse again.")
+	$.prompt("Congratulations\nYou found the mouse!\nClick OK to hide the mouse again.")
 }
 
 function resetGame() {
