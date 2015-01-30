@@ -10,37 +10,7 @@ inside = [
 	empty
 ]
 
-/*
-var red = {obj: $('#red'), house: "/images/redhouse.svg", inner: empty, covered: true}
-var blue = {obj: $('#blue'), house: "/images/bluehouse.svg", inner: empty, covered: true}
-var orange = {obj: $('#orange'), house: "/images/orangehouse.svg", inner: empty, covered: true}
-var green = {obj: $('#green'), house: "/images/greenhouse.svg", inner: empty, covered: true}
-var yellow = {obj: $('#yellow'), house: "/images/yellowhouse.svg", inner: empty, covered: true}
-var purple = {obj: $('#purple'), house: "/images/purplehouse.svg", inner: empty, covered: true}
-
-houses = [
-	red,
-	blue,
-	orange,
-	green,
-	yellow,
-	purple
-]
-*/
-
 $( document ).ready(function() {
-	/*
-	for (var i in houses) {
-		h = houses[i]
-		console.log(h.house)
-		h.obj.click(
-			function() {
-				console.log(h.house)
-				h.obj.attr("src", h.house)
-			}
-		)
-	}
-	*/
 
 	$("#red").click(function() {
 		$(this).attr("src",inside[0]);
@@ -92,7 +62,7 @@ $( document ).ready(function() {
 });
 
 function congrats() {
-	alert("Congratulations\nYou found the mouse!")
+	alert("Congratulations\nYou found the mouse!\nClick OK to hide the mouse again.")
 }
 
 function resetGame() {
