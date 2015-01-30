@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="description" content="Little Mouse Storytime Game">
 		<title>Little Mouse Flannel</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery-impromptu.css">
 		<link rel="stylesheet" href="style.css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	</head>
@@ -11,7 +12,7 @@
 		<h1>Animated Little Mouse Flannelboard</h1>
 		<div class="rhyme">
 			<p>An animated version of the popular storytime game, Little Mouse, made with JavaScript. Traditional flannelboard version <a href="http://rovingfiddlehead.com/kidlit/flannel-friday-little-mouse-in-the-house-flannelboard-game/">here</a>.</p>
-			<p>As children choose a house to look under, click on that house, it lifts and reveals whether or not the mouse is hiding under that particular house. Repeat as often as the children like!</p>
+			<p>As children choose a house to look under, click on that house. It will be greyed out if there is no mouse underneath. A pop-up displays the mouse when the children find it. Repeat as often as the children wish!</p>
 			<blockquote>Little Mouse, Little Mouse<br/>
 			Are you hiding in the ____ house?</blockquote>
 		</div>
@@ -28,7 +29,10 @@
 
 			<img class="house" id="purple" src="/images/purplehouse.svg"/>
 		</div>
+		<p>Code is open source on <a href="http://github.com/fiddlehead.com">Github</a>. Pull requests that improve the code are welcome!</p>
+		<p class="credits"><em>Mouse icon made by <a title="Freepik" href="http://www.freepik.com">Freepik</a> from <a title="Flaticon" href="http://www.flaticon.com">www.flaticon.com</a>, licensed by <a title="Creative Commons BY 3.0" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></em></p>
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="jquery-impromptu.js"></script>
 		<script src="littlemouse.js"></script>
 	</body>
 </html>
